@@ -4,7 +4,7 @@ sources:
   - name: raw
     description: "Raw data sources for NYC taxi rides"
     database: "data-engineering-camp-486909" # 프로젝트 ID 
-    schema: nytaxi_hw4  # 빅쿼리 데이터셋 이름
+    schema: dbt_prod
     tables:
       - name: green_tripdata
       - name: yellow_tripdata
